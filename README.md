@@ -3,6 +3,6 @@
 - User can adjust the volume, change the sound bank and can turn it off and on.
 - Tried to built it responsive, can be used in mobiles and large screens but I recommend PC screen.
 - To rum this app locally use command ->
-          ### npm start
+### npm start
           
---- This app is hosted on heroku.
+## This app is hosted on heroku.

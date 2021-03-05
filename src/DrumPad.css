@@ -1,0 +1,44 @@
+.drum-pad {
+  background-color: #707070;
+  box-shadow: 3px 3px 3px black;
+  color: blue;
+  height: 2.5rem;
+  width: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0.2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 1px 0px 2px white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.drum-pad:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.drum-pad:active {
+  box-shadow: none;
+  background-color: yellow;
+  color: black;
+}
+
+@media (max-width: 1200px) {
+  .drum-pad {
+    height: 2rem;
+    width: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .drum-pad {
+    height: 1.3rem;
+    width: 1.5rem;
+  }
+}

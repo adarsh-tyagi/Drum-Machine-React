@@ -3,6 +3,7 @@ import "./PadBank.css";
 import DrumPad from "./DrumPad";
 
 class PadBank extends React.Component {
+  // eslint-disable-next-line
   constructor(props) {
     super(props);
   }

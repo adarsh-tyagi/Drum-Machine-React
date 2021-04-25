@@ -4,5 +4,4 @@
 - Tried to built it responsive, can be used in mobiles and large screens but I recommend PC screen.
 - To rum this app locally use command ->
 ### npm start
-          
-## This app is hosted on heroku.
+         
